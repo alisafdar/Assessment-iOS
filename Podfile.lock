@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.4.3)
+  - AlamofireNetworkActivityIndicator (3.1.0):
+    - Alamofire (~> 5.1)
+  - AlamofireNetworkActivityLogger (3.4.0):
+    - Alamofire (~> 5.4.0)
+  - MKProgress (1.1.0)
+  - WebController (0.3.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireNetworkActivityIndicator
+  - AlamofireNetworkActivityLogger
+  - MKProgress
+  - WebController
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - AlamofireNetworkActivityLogger
+    - MKProgress
+    - WebController
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AlamofireNetworkActivityIndicator: 6564782bd7b9e6c430ae67d9277af01907b01ca4
+  AlamofireNetworkActivityLogger: 162ab8aee00e6267a4304d7cc134e13ccfe3bcc5
+  MKProgress: 260d166200323f3d991190a73ab2dc3a04b0f52f
+  WebController: c3b621e9c0ac12d6c4e7af63b40de7d592e3def8
+
+PODFILE CHECKSUM: e390a8ff58f69c9d41d12e933ab6c854514f77ba
+
+COCOAPODS: 1.10.1

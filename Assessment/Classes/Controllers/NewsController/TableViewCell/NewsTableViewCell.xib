@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="NewsTVC" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsTableViewCell" rowHeight="161" id="KGk-i7-Jjw" customClass="NewsTableViewCell" customModule="Assessment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="153"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WAQ-y9-evB" customClass="CardView" customModule="Assessment" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="304" height="137"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Neil Armstrong’s Death, and a Stormy, Secret $6 Million Settlement" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fso-0Z-ULg">
+                                <rect key="frame" x="56" y="8" width="207" height="57.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8hq-Fk-uxr" customClass="CircularView" customModule="Assessment" customModuleProvider="target">
+                                <rect key="frame" x="8" y="48.5" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="5Xb-K4-D0J"/>
+                                    <constraint firstAttribute="height" constant="40" id="JdE-P1-Lix"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right" translatesAutoresizingMaskIntoConstraints="NO" id="IT2-nb-PmS">
+                                <rect key="frame" x="271" y="56" width="25" height="25"/>
+                                <color key="tintColor" red="0.52941176469999995" green="0.52941176469999995" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Zy9-hz-VtZ"/>
+                                    <constraint firstAttribute="width" constant="25" id="eU3-Vd-oOj"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="By SCOTT SHANE and SARAH KLIFF" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="osY-2z-4N1">
+                                <rect key="frame" x="56" y="77.5" width="207" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="748" text="The New York Times" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yx4-uU-eYp">
+                                <rect key="frame" x="56" y="114.5" width="113.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="2019-07-23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZt-A1-D7K">
+                                <rect key="frame" x="194.5" y="114.5" width="68.5" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="cxF-2p-sEh">
+                                <rect key="frame" x="177.5" y="114.5" width="15" height="15"/>
+                                <color key="tintColor" red="0.52941176469999995" green="0.52941176469999995" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="Xaj-I8-OBJ"/>
+                                    <constraint firstAttribute="width" constant="15" id="xWy-1z-eyU"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yx4-uU-eYp" firstAttribute="leading" secondItem="osY-2z-4N1" secondAttribute="leading" id="8Ga-gS-c9i"/>
+                            <constraint firstItem="osY-2z-4N1" firstAttribute="top" secondItem="fso-0Z-ULg" secondAttribute="bottom" constant="12" id="Aq9-sQ-jjW"/>
+                            <constraint firstItem="yZt-A1-D7K" firstAttribute="top" secondItem="yx4-uU-eYp" secondAttribute="top" id="EPl-d1-YtQ"/>
+                            <constraint firstItem="8hq-Fk-uxr" firstAttribute="leading" secondItem="WAQ-y9-evB" secondAttribute="leading" constant="8" id="H7f-MS-hkM"/>
+                            <constraint firstItem="osY-2z-4N1" firstAttribute="trailing" secondItem="fso-0Z-ULg" secondAttribute="trailing" id="LO6-HS-4UT"/>
+                            <constraint firstItem="yZt-A1-D7K" firstAttribute="leading" secondItem="cxF-2p-sEh" secondAttribute="trailing" constant="2" id="TEW-8X-zuY"/>
+                            <constraint firstItem="cxF-2p-sEh" firstAttribute="centerY" secondItem="yx4-uU-eYp" secondAttribute="centerY" id="TYc-1a-MUg"/>
+                            <constraint firstItem="yx4-uU-eYp" firstAttribute="top" secondItem="osY-2z-4N1" secondAttribute="bottom" constant="8" symbolic="YES" id="UDr-fv-23V"/>
+                            <constraint firstItem="IT2-nb-PmS" firstAttribute="leading" secondItem="fso-0Z-ULg" secondAttribute="trailing" constant="8" id="b4q-FZ-Cy2"/>
+                            <constraint firstItem="osY-2z-4N1" firstAttribute="leading" secondItem="fso-0Z-ULg" secondAttribute="leading" id="dDe-t8-zZg"/>
+                            <constraint firstAttribute="bottom" secondItem="yx4-uU-eYp" secondAttribute="bottom" constant="8" id="dp4-Mn-OgJ"/>
+                            <constraint firstItem="fso-0Z-ULg" firstAttribute="leading" secondItem="8hq-Fk-uxr" secondAttribute="trailing" constant="8" id="jjs-MT-WBO"/>
+                            <constraint firstItem="IT2-nb-PmS" firstAttribute="centerY" secondItem="WAQ-y9-evB" secondAttribute="centerY" id="kUs-cH-buE"/>
+                            <constraint firstItem="fso-0Z-ULg" firstAttribute="top" secondItem="WAQ-y9-evB" secondAttribute="top" constant="8" id="ka4-wU-7y4"/>
+                            <constraint firstItem="cxF-2p-sEh" firstAttribute="leading" secondItem="yx4-uU-eYp" secondAttribute="trailing" constant="8" id="m4p-0s-bzb"/>
+                            <constraint firstItem="yZt-A1-D7K" firstAttribute="trailing" secondItem="osY-2z-4N1" secondAttribute="trailing" id="miJ-mr-BVF"/>
+                            <constraint firstAttribute="trailing" secondItem="IT2-nb-PmS" secondAttribute="trailing" constant="8" id="ngO-Re-bMv"/>
+                            <constraint firstItem="8hq-Fk-uxr" firstAttribute="centerY" secondItem="WAQ-y9-evB" secondAttribute="centerY" id="w0w-Wo-NZ5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="WAQ-y9-evB" secondAttribute="trailing" constant="8" id="DQT-Xf-1Iq"/>
+                    <constraint firstItem="WAQ-y9-evB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="aOH-Gl-6Bf"/>
+                    <constraint firstItem="WAQ-y9-evB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="beN-R4-LQF"/>
+                    <constraint firstAttribute="bottom" secondItem="WAQ-y9-evB" secondAttribute="bottom" constant="8" id="n53-o4-G8H"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="authorLabel" destination="osY-2z-4N1" id="FxA-W3-LiC"/>
+                <outlet property="dateLabel" destination="yZt-A1-D7K" id="CIV-Cv-rje"/>
+                <outlet property="sourceLabel" destination="yx4-uU-eYp" id="QJn-hS-t6k"/>
+                <outlet property="titleLabel" destination="fso-0Z-ULg" id="dOc-wP-4vM"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="191.85267857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="calendar" width="24" height="24"/>
+        <image name="right" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
